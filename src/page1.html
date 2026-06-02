@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ОЛИС - Технологии и оборудование</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-50 text-gray-900">
+
+    <header class="bg-white border-b sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <img src="./img/27d79ca125a0deba6fa68080be888ba5cb54df2d (1).png" alt="Olis Logo" class="h-10">
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#" class="hover:text-orange-600">О компании</a>
+                <a href="#" class="hover:text-orange-600">Объекты</a>
+                <a href="./src/page1.html" class="hover:text-orange-600">Комплексные решения</a>
+                <a href="#" class="hover:text-orange-600">Наше оборудование</a>
+            </nav>
+            <div class="flex items-center space-x-4 font-bold text-sm">
+                <span>+38 (067) 822-85-58</span>
+                <button class="border px-3 py-1 rounded">RU</button>
+            </div>
+        </div>
+    </header>
+    <div class="max-w-7xl mx-auto p-6 space-y-12 bg-white">
+  
+  <!-- Секция 1: Описание сверху -->
+  <div class="grid md:grid-cols-2 gap-8 items-center">
+    <div>
+      <img src="2026-06-02_12-24-23.jpg" alt="Зерноочистительный комплекс" class="w-full rounded-lg shadow-lg">
+    </div>
+    <div class="space-y-4">
+      <p class="text-sm text-gray-500 uppercase tracking-widest">Главная / Комплексные решения / Зерноочистительные комплексы</p>
+      <h1 class="text-4xl font-bold text-gray-900">ЗЕРНООЧИСТИТЕЛЬНЫЕ КОМПЛЕКСЫ</h1>
+      <p class="text-gray-600 leading-relaxed">
+        Послеуборочная очистка является обязательным звеном производства зерна. Эффективность этого процесса прямо влияет на эффективность последующих операций...
+      </p>
+    </div>
+  </div>
+
+  <!-- Секция 2: Список процессов и второе изображение -->
+  <div class="grid md:grid-cols-2 gap-8 items-start">
+    <div class="space-y-8">
+      <h2 class="text-2xl font-semibold">Процессы очистки</h2>
+      
+      <div>
+        <h3 class="font-bold text-lg">Предварительная очистка зернового вороха</h3>
+        <p class="text-sm text-gray-600">Выделение легких, мелких и крупных примесей...</p>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg">Первичная очистка зерна</h3>
+        <p class="text-sm text-gray-600">Выделение крупных, мелких и легких примесей...</p>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg">Вторичная очистка</h3>
+        <p class="text-sm text-gray-600">Применяется для зерна, прошедшего первичную очистку...</p>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg">Сортирование</h3>
+        <p class="text-sm text-gray-600">Разделение зерна основной культуры на фракции...</p>
+      </div>
+    </div>
     
-</body>
-</html>
+    <div>
+      <img src="2026-06-02_12-24-23.jpg" alt="Силос для зерна" class="w-full rounded-lg shadow-lg">
+    </div>
+  </div>
+
+</div>
