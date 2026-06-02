@@ -1,11 +1,621 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ОЛИС - Технологии и оборудование</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-50 text-gray-900">
+
+    <header class="bg-white border-b sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <img src="./src/img/27d79ca125a0deba6fa68080be888ba5cb54df2d.png" alt="Olis Logo" class="h-10">
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="./src/page1.html" class="hover:text-orange-600">О компании</a>
+                <a href="./src/page2.html" class="hover:text-orange-600">Объекты</a>
+                <a href="./src/page3.html" class="hover:text-orange-600">Комплексные решения</a>
+                <a href="./src/page4.html" class="hover:text-orange-600">Наше оборудование</a>
+                <a href="./index.html" class="hover:text-orange-600">О нас</a>
+
+            </nav>
+            <div class="flex items-center space-x-4 font-bold text-sm">
+                <span>+38 (067) 822-85-58</span>
+                <button class="border px-3 py-1 rounded">RU</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="container mx-auto px-4 py-12 flex flex-col md:flex-row gap-8">
+        <div class="md:w-1/2 flex flex-col justify-center">
+            <h1 class="text-5xl font-extrabold text-gray-900 mb-6">ТЕХНОЛОГИИ <br><span class="text-orange-500">И ОБОРУДОВАНИЕ</span></h1>
+            <p class="text-xl text-gray-600 mb-8">для очистки, переработки и контроля качества зерна</p>
+            <button class="bg-orange-500 text-white px-8 py-4 w-fit rounded shadow-lg hover:bg-orange-600">Оставить заявку</button>
+        </div>
+        <div class="md:w-1/2">
+            <img src="./src/img/Mask Group.jpg" alt="Фабрика" class="rounded-lg shadow-2xl w-full h-auto">
+        </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold mb-12 flex items-center">
+            <span class="mr-4">НАШЕ ОБОРУДОВАНИЕ</span>
+            <div class="flex-1 h-px bg-gray-300"></div>
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow-sm border flex items-center gap-4 hover:shadow-md transition">
+                <img src="./src/img/78c1d0f0eac9d373a4a56e14345ec1aa2d3d83c7.png" class="w-16">
+                <p class="font-bold text-lg">Зерноочистительное оборудование</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm border flex items-center gap-4 hover:shadow-md transition">
+                <img src="./src/img/78c1d0f0eac9d373a4a56e14345ec1aa2d3d83c7.png" class="w-16">
+                <p class="font-bold text-lg">Оборудование для производства круп</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm border flex items-center gap-4 hover:shadow-md transition">
+                <img src="./src/img/78c1d0f0eac9d373a4a56e14345ec1aa2d3d83c7.png" class="w-16">
+                <p class="font-bold text-lg">Лабораторное оборудование</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm border flex items-center gap-4 hover:shadow-md transition">
+                <img src="./src/img/78c1d0f0eac9d373a4a56e14345ec1aa2d3d83c7.png" class="w-16">
+                <p class="font-bold text-lg">Оборудование для производства муки</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm border flex items-center gap-4 hover:shadow-md transition">
+                <img src="./src/img/78c1d0f0eac9d373a4a56e14345ec1aa2d3d83c7.png" class="w-16">
+                <p class="font-bold text-lg">Транспортное и аспирационное оборудование</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm border flex items-center gap-4 hover:shadow-md transition">
+                <img src="./src/img/78c1d0f0eac9d373a4a56e14345ec1aa2d3d83c7.png" class="w-16">
+                <p class="font-bold text-lg">Самотечное оборудование</p>
+            </div>
+        </div>
+    </section>
+    <!-- Контейнер для 8 карточек -->
+<div class="container mx-auto px-4 py-16">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        
+        <!-- Карточка 1 -->
+        <div class="flex flex-col border p-4 rounded hover:shadow-lg transition">
+            <img src="./src/img/2c91d6e53258ac3a776f99921e86ac016fc03bbb.png" class="w-full h-32 object-cover mb-4" alt="Карточка 1">
+            <h3 class="font-bold mt-auto text-center">Заголовок 1</h3>
+        </div>
+        
+        <!-- Карточка 2 -->
+        <div class="flex flex-col border p-4 rounded hover:shadow-lg transition">
+            <img src="./src/img/2c91d6e53258ac3a776f99921e86ac016fc03bbb.png" class="w-full h-32 object-cover mb-4" alt="Карточка 2">
+            <h3 class="font-bold mt-auto text-center">Заголовок 2</h3>
+        </div>
+
+        <!-- Карточка 3 -->
+        <div class="flex flex-col border p-4 rounded hover:shadow-lg transition">
+            <img src="./src/img/2c91d6e53258ac3a776f99921e86ac016fc03bbb.png" class="w-full h-32 object-cover mb-4" alt="Карточка 3">
+            <h3 class="font-bold mt-auto text-center">Заголовок 3</h3>
+        </div>
+
+        <!-- Карточка 4 -->
+        <div class="flex flex-col border p-4 rounded hover:shadow-lg transition">
+            <img src="./src/img/2c91d6e53258ac3a776f99921e86ac016fc03bbb.png" class="w-full h-32 object-cover mb-4" alt="Карточка 4">
+            <h3 class="font-bold mt-auto text-center">Заголовок 4</h3>
+        </div>
+
+        <!-- Карточка 5 (Начало нижнего ряда) -->
+        <div class="flex flex-col border p-4 rounded hover:shadow-lg transition">
+            <img src="./src/img/2c91d6e53258ac3a776f99921e86ac016fc03bbb.png" class="w-full h-32 object-cover mb-4" alt="Карточка 5">
+            <h3 class="font-bold mt-auto text-center">Заголовок 5</h3>
+        </div>
+
+        <!-- Карточка 6 -->
+        <div class="flex flex-col border p-4 rounded hover:shadow-lg transition">
+            <img src="./src/img/2c91d6e53258ac3a776f99921e86ac016fc03bbb.png" class="w-full h-32 object-cover mb-4" alt="Карточка 6">
+            <h3 class="font-bold mt-auto text-center">Заголовок 6</h3>
+        </div>
+
+        <!-- Карточка 7 -->
+        <div class="flex flex-col border p-4 rounded hover:shadow-lg transition">
+            <img src="./src/img/2c91d6e53258ac3a776f99921e86ac016fc03bbb.png" class="w-full h-32 object-cover mb-4" alt="Карточка 7">
+            <h3 class="font-bold mt-auto text-center">Заголовок 7</h3>
+        </div>
+
+        <!-- Карточка 8 -->
+        <div class="flex flex-col border p-4 rounded hover:shadow-lg transition">
+            <img src="./src/img/2c91d6e53258ac3a776f99921e86ac016fc03bbb.png" class="w-full h-32 object-cover mb-4" alt="Карточка 8">
+            <h3 class="font-bold mt-auto text-center">Заголовок 8</h3>
+        </div>
+
+    </div>
+</div>
+<div class="container mx-auto px-4 py-16">
+  <!-- Сетка: 2 колонки на мобильных, 4 на десктопах -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
     
+    <!-- Повторяющийся блок карточки (8 раз) -->
+    <!-- Используем .flex, .flex-col для управления контентом -->
+    <div class="flex flex-col p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+      <img src="./src/img/Mask Group (1).jpg" alt="Изображение" class="w-full h-40 object-cover mb-4">
+      <h3 class="font-bold text-center mt-auto">Заголовок карточки</h3>
+    </div>
+    
+    <div class="flex flex-col p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+      <img src="./src/img/Mask Group (1).jpg" alt="Изображение" class="w-full h-40 object-cover mb-4">
+      <h3 class="font-bold text-center mt-auto">Заголовок карточки</h3>
+    </div>
+
+    <div class="flex flex-col p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+      <img src="./src/img/Mask Group (1).jpg" alt="Изображение" class="w-full h-40 object-cover mb-4">
+      <h3 class="font-bold text-center mt-auto">Заголовок карточки</h3>
+    </div>
+
+    <div class="flex flex-col p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+      <img src="./src/img/Mask Group (1).jpg" alt="Изображение" class="w-full h-40 object-cover mb-4">
+      <h3 class="font-bold text-center mt-auto">Заголовок карточки</h3>
+    </div>
+
+    <div class="flex flex-col p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+      <img src="./src/img/Mask Group (1).jpg" alt="Изображение" class="w-full h-40 object-cover mb-4">
+      <h3 class="font-bold text-center mt-auto">Заголовок карточки</h3>
+    </div>
+
+    <div class="flex flex-col p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+      <img src="./src/img/Mask Group (1).jpg" alt="Изображение" class="w-full h-40 object-cover mb-4">
+      <h3 class="font-bold text-center mt-auto">Заголовок карточки</h3>
+    </div>
+
+    <div class="flex flex-col p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+      <img src="./src/img/Mask Group (1).jpg" alt="Изображение" class="w-full h-40 object-cover mb-4">
+      <h3 class="font-bold text-center mt-auto">Заголовок карточки</h3>
+    </div>
+
+    <div class="flex flex-col p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+      <img src="./src/img/Mask Group (1).jpg" alt="Изображение" class="w-full h-40 object-cover mb-4">
+      <h3 class="font-bold text-center mt-auto">Заголовок карточки</h3>
+    </div>
+    
+  </div>
+</div>
+<section class="bg-white py-16">
+    <div class="container mx-auto px-4 flex flex-wrap justify-center gap-8">
+        
+        <div class="flex flex-col items-center text-center w-48">
+            <div class="w-32 h-32 rounded-full border-8 border-gray-200 border-t-orange-500 flex items-center justify-center text-3xl font-bold text-orange-500 mb-6">
+                30
+            </div>
+            <p class="text-sm text-gray-700 font-medium">Стран, в которых работают наши объекты</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center w-48">
+            <div class="w-32 h-32 rounded-full border-8 border-gray-200 border-t-orange-500 flex items-center justify-center text-3xl font-bold text-orange-500 mb-6">
+                16
+            </div>
+            <p class="text-sm text-gray-700 font-medium">Лет опыта разработок и внедрения</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center w-48">
+            <div class="w-32 h-32 rounded-full border-8 border-gray-200 border-t-orange-500 flex items-center justify-center text-3xl font-bold text-orange-500 mb-6">
+                200
+            </div>
+            <p class="text-sm text-gray-700 font-medium">Наименований выпускаемого оборудования</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center w-48">
+            <div class="w-32 h-32 rounded-full border-8 border-gray-200 border-t-orange-500 flex items-center justify-center text-3xl font-bold text-orange-500 mb-6">
+                3000
+            </div>
+            <p class="text-sm text-gray-700 font-medium">Работающих производств в мире</p>
+        </div>
+
+    </div>
+</section>
+<section class="container mx-auto px-4 py-20">
+    <div class="grid md:grid-cols-2 gap-16 items-start mb-24">
+        <div>
+            <h2 class="text-4xl font-bold mb-8 flex items-center">
+                <span class="w-6 h-6 bg-orange-500 rounded-full mr-4"></span> О НАС
+            </h2>
+            <p class="text-gray-600 leading-relaxed mb-8">
+                Лидер зерноочистительного оборудования в Украине. Наша компания специализируется в разработке, производстве и внедрении в промышленность технологий и оборудования для переработки зерна. Сегодня мы обладаем оригинальными современными технологиями...
+            </p>
+            <button class="bg-orange-500 text-white px-8 py-3 rounded flex items-center gap-2 hover:bg-orange-600 transition">
+                Скачать каталог <span>↓</span>
+            </button>
+        </div>
+        <img src="./src/img/Mask Group (2).jpg" alt="Оборудование" class="rounded-lg shadow-2xl w-full">
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="bg-gray-100 h-64 md:h-96 rounded-lg flex items-center justify-center border-2 border-dashed border-gray-300">
+            <img src="./src/img/map.jpg"></img>
+        </div>
+        
+        <div>
+            <h2 class="text-3xl font-bold mb-6">В КАКИХ СТРАНАХ<br>МЫ РАБОТАЕМ</h2>
+            <p class="text-gray-600 leading-relaxed mb-8">
+                Технологический уровень и организация нашего производства позволяет обеспечить высокое качество изделий по убедительным ценам и поставлять их более чем в 30 стран ближнего и дальнего зарубежья.
+            </p>
+            <button class="bg-orange-500 text-white px-8 py-3 rounded hover:bg-orange-600 transition">
+                Открыть карту готовых проектов
+            </button>
+        </div>
+    </div>
+</section>
+<section class="bg-white">
+  <!-- Partners -->
+  <div class="max-w-7xl mx-auto px-6 py-12">
+    <h2 class="text-4xl font-light uppercase tracking-wide mb-8">
+      <span class="font-bold">Наши</span> Партнёры
+    </h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <div class="bg-gray-50 h-28 flex items-center justify-center border">
+        <img src="./src/img/Group 122.png" alt="" class="max-h-16 object-contain" />
+      </div>
+
+      <div class="bg-gray-50 h-28 flex items-center justify-center border">
+        <img src="./src/img/Group 122.png" alt="" class="max-h-16 object-contain" />
+      </div>
+
+      <div class="bg-gray-50 h-28 flex items-center justify-center border">
+        <img src="./src/img/Group 122.png" alt="" class="max-h-16 object-contain" />
+      </div>
+
+      <div class="bg-gray-50 h-28 flex items-center justify-center border">
+        <img src="./src/img/Group 122.png" alt="" class="max-h-16 object-contain" />
+      </div>
+
+      <div class="bg-gray-50 h-28 flex items-center justify-center border">
+        <img src="./src/img/Group 122.png" alt="" class="max-h-16 object-contain" />
+      </div>
+
+      <div class="bg-gray-50 h-28 flex items-center justify-center border">
+        <img src="./src/img/Group 122.png" alt="" class="max-h-16 object-contain" />
+      </div>
+    </div>
+
+    <div class="w-24 h-1 bg-yellow-500 mt-5"></div>
+  </div>
+
+  <!-- Contact block -->
+  <section
+    class="relative bg-cover bg-center py-20"
+    style="background-image:url('/bg.jpg')"
+  >
+    <div class="absolute inset-0 bg-black/20"></div>
+
+    <div
+      class="relative max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-10"
+    >
+      <!-- Logo -->
+      <div class="flex-1">
+        <img
+          src="./src/img/27d79ca125a0deba6fa68080be888ba5cb54df2d (1).png"
+          alt="OLIS"
+          class="w-72 md:w-96 object-contain"
+        />
+      </div>
+
+      <!-- Form -->
+      <div class="flex-1">
+        <div class="bg-white p-8 shadow-xl max-w-2xl ml-auto">
+          <h3 class="text-4xl font-light uppercase">
+            <span class="font-bold">Форма</span> обратной связи
+          </h3>
+
+          <p class="text-gray-500 mt-2 mb-8">
+            Заполните форму и мы свяжемся с вами
+          </p>
+
+          <form class="space-y-6">
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Иван"
+                  class="w-full border-b border-gray-300 focus:border-yellow-500 outline-none py-2"
+                />
+              </div>
+
+              <div>
+                <input
+                  type="text"
+                  placeholder="Телефон"
+                  class="w-full border-b border-gray-300 focus:border-yellow-500 outline-none py-2"
+                />
+              </div>
+            </div>
+
+            <div>
+              <input
+                type="email"
+                placeholder="E-mail"
+                class="w-full border-b border-gray-300 focus:border-yellow-500 outline-none py-2"
+              />
+            </div>
+
+            <button
+              type="submit"
+              class="bg-yellow-500 hover:bg-yellow-600 transition text-white font-semibold px-10 py-4"
+            >
+              Оставить заявку
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News -->
+  <section class="bg-gray-50 py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-5xl font-light uppercase text-center mb-14">
+        <span class="font-bold">Последние</span> новости
+      </h2>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Card -->
+        <article class="bg-white shadow-sm overflow-hidden">
+          <div class="flex">
+            <img
+              src="./src/img/Mask Group (1).png"
+              alt=""
+              class="w-40 h-48 object-cover"
+            />
+
+            <div class="p-5">
+              <span
+                class="inline-block bg-yellow-500 text-white text-xs px-3 py-1 mb-3"
+              >
+                15.06.2021
+              </span>
+
+              <h3 class="font-bold text-xl leading-tight mb-3">
+                Компания ОЛИС запустила в Турции завод
+              </h3>
+
+              <p class="text-gray-500 text-sm mb-4">
+                Компания “ОЛИС” в 2020 году поставила комплектную линию
+                производства зерновых хлопьев
+              </p>
+
+              <a
+                href="#"
+                class="text-yellow-500 font-semibold hover:underline"
+              >
+                Читать подробнее →
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card -->
+        <article class="bg-white shadow-sm overflow-hidden">
+          <div class="flex">
+            <img
+              src="./src/img/Mask Group (1).png"
+              alt=""
+              class="w-40 h-48 object-cover"
+            />
+
+            <div class="p-5">
+              <span
+                class="inline-block bg-yellow-500 text-white text-xs px-3 py-1 mb-3"
+              >
+                15.06.2021
+              </span>
+
+              <h3 class="font-bold text-xl leading-tight mb-3">
+                Компания ОЛИС запустила в Турции завод
+              </h3>
+
+              <p class="text-gray-500 text-sm mb-4">
+                Компания “ОЛИС” в 2020 году поставила комплектную линию
+                производства зерновых хлопьев
+              </p>
+
+              <a
+                href="#"
+                class="text-yellow-500 font-semibold hover:underline"
+              >
+                Читать подробнее →
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card -->
+        <article class="bg-white shadow-sm overflow-hidden">
+          <div class="flex">
+            <img
+              src="./src/img/Mask Group (1).png"
+              alt=""
+              class="w-40 h-48 object-cover"
+            />
+
+            <div class="p-5">
+              <span
+                class="inline-block bg-yellow-500 text-white text-xs px-3 py-1 mb-3"
+              >
+                15.06.2021
+              </span>
+
+              <h3 class="font-bold text-xl leading-tight mb-3">
+                Компания ОЛИС запустила в Турции завод
+              </h3>
+
+              <p class="text-gray-500 text-sm mb-4">
+                Компания “ОЛИС” в 2020 году поставила комплектную линию
+                производства зерновых хлопьев
+              </p>
+
+              <a
+                href="#"
+                class="text-yellow-500 font-semibold hover:underline"
+              >
+                Читать подробнее →
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</section>
+
+<footer class="bg-[#f5f5f5] pt-16 pb-10">
+  <div
+    class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12"
+  >
+    <!-- Logo -->
+    <div>
+      <img
+        src="./src/img/27d79ca125a0deba6fa68080be888ba5cb54df2d (1).png"
+        alt="OLIS"
+        class="w-40 mb-8"
+      />
+
+      <p class="text-gray-400 text-sm leading-7">
+        © 2021 ООО «ОЛИС».<br />
+        Все права защищены
+      </p>
+
+      <a
+        href="#"
+        class="inline-block mt-6 text-yellow-500 hover:underline"
+      >
+        Карта сайта
+      </a>
+    </div>
+
+    <!-- Subscribe -->
+    <div class="lg:col-span-1">
+      <h3 class="font-bold text-xl mb-6">
+        Подпишись на рассылку
+      </h3>
+
+      <form class="flex">
+        <input
+          type="email"
+          placeholder="E-mail"
+          class="w-full h-14 px-5 border border-gray-200 outline-none focus:border-yellow-500 bg-white"
+        />
+
+        <button
+          type="submit"
+          class="w-16 h-14 bg-yellow-500 hover:bg-yellow-600 transition flex items-center justify-center text-white text-xl"
+        >
+          ✈
+        </button>
+      </form>
+    </div>
+
+    <!-- Company -->
+    <div>
+      <h3 class="font-bold text-xl mb-6">
+        Наша компания
+      </h3>
+
+      <ul class="space-y-3 text-gray-700">
+        <li>
+          <a href="#" class="hover:text-yellow-500 transition">
+            Как мы работаем
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="hover:text-yellow-500 transition">
+            Отзывы о компании
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="hover:text-yellow-500 transition">
+            Новинки компании
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Press Center -->
+    <div>
+      <h3 class="font-bold text-xl mb-6">
+        Пресс-центр
+      </h3>
+
+      <ul class="space-y-3 text-gray-700">
+        <li>
+          <a href="#" class="hover:text-yellow-500 transition">
+            Новости
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="hover:text-yellow-500 transition">
+            Статьи
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="hover:text-yellow-500 transition">
+            Выставки
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Contacts -->
+    <div>
+      <div class="flex items-center justify-between mb-6">
+        <h3 class="font-bold text-xl">
+          Контакты
+        </h3>
+
+        <!-- Socials -->
+        <div class="flex gap-2">
+          <a
+            href="#"
+            class="w-8 h-8 rounded-full bg-yellow-500 text-white flex items-center justify-center text-sm"
+          >
+            in
+          </a>
+
+          <a
+            href="#"
+            class="w-8 h-8 rounded-full bg-yellow-400 text-white flex items-center justify-center text-sm"
+          >
+            ●
+          </a>
+
+          <a
+            href="#"
+            class="w-8 h-8 rounded-full bg-yellow-300 text-white flex items-center justify-center text-sm"
+          >
+            f
+          </a>
+        </div>
+      </div>
+
+      <div class="space-y-5 text-sm text-gray-700">
+        <div>
+          <p class="font-bold mb-1">Телефон</p>
+          <p>📞 +38 (067) 822-85-58</p>
+        </div>
+
+        <div>
+          <p class="font-bold mb-1">Звонки из СНГ:</p>
+          <p>📞 +7 (831) 288-93-74</p>
+        </div>
+
+        <div>
+          <p class="font-bold mb-1">E-mail</p>
+          <p>✉ olis1@ukr.net</p>
+          <p>✉ info@olis.com.ua</p>
+        </div>
+
+        <div>
+          <p class="font-bold mb-1">Время работы</p>
+          <p>с 8:00 - до 17:00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
